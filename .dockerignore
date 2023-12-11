@@ -1,0 +1,18 @@
+# Start with ignoring everything
+
+node_modules
+.env
+
+# Add what we need to include
+
+!controllers/_
+!models/_
+!middleware/_
+!public/_
+!routes/_
+!views/_
+!config/_
+!app.js
+!package.json
+!package-lock.json
+!tests/_
