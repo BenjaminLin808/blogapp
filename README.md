@@ -7,3 +7,4 @@ The kubernetes is the most challenging part of the assignment because I did not 
 Indicate the features that are buggy or that you were not able to implement and what you have tried to fix them.
 I'm not able to convert the app to use dynamodb
 
+https://www.youtube.com/watch?v=DWMpCbrMXX4
