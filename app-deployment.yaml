@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: blogapp
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: blogapp
+  template:
+    metadata:
+      labels:
+        app: blogapp
+    spec:
+      containers:
+        - name: nginx
+          image: benjaminlin808/blogapp:latest
+          ports:
+            - containerPort: 80
